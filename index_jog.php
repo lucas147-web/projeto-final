@@ -117,8 +117,8 @@
                             echo '<td>'.$v['valor'].'</td>';
                             
                             echo '<td style="text-align:center">
-                            <a class="btn btn-primary btn-sm" href="view_game.php?id='.$v['id'].'"><i class="fas fa-eye"></i></a>
-                            <a class="btn btn-info btn-sm"href="edicao_game.php?id='.$v['id'].'"><i class="fas fa-pencil-alt"></i></a>
+                            <a class="btn btn-secondary btn-sm" href="view_game.php?id='.$v['id'].'"><i class="fas fa-eye"></i></a>
+                            <a class="btn btn-secondary btn-sm"href="edicao_game.php?id='.$v['id'].'"><i class="fas fa-pencil-alt"></i></a>
 
                             <a class="btn btn-danger btn-sm"  href="delete.php?id='.$v['id'].'" data-href="delete.php?id='.$v['id'].'" data-toggle="modal" data-target="#confirm-delete"><i class="fas fa-trash"></i></a>
                             </td>';

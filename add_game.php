@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>GameTOY</title>
+  <title>Game X</title>
   <?php
     include "header.php";
     ?>
@@ -23,7 +23,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">JOGO +</h1>
+            <h1 class="m-0 text-dark"><i class="fas fa">JOGO +</i></h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -41,9 +41,9 @@
     <section class="content">
       <div class="container-fluid">
  
-        <div class="card card-primary">
+        <div class="card card-dark">
             <div class="card-header">
-              <h3 class="card-title">ADICIONAR JOGOS</h3>
+              <h3 class="card-title"><i class="fas fa">ADICIONAR JOGOS</i></h3>
             </div>
             <!-- /.card-header -->
             <!-- form start -->
@@ -73,7 +73,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">cadastrar</button>
+                  <button type="submit" class="btn btn-dark">cadastrar</button>
                 </div>
             </form>
           </div>
