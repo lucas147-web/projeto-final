@@ -17,9 +17,9 @@
       
 
        $id         = $v['id'];
-       $titulo     = $v['id'];
-       $categoria  = $v['id'];
-       $valor      = $v['id'];
+       $titulo     = $v['titulo'];
+       $categoria  = $v['categoria'];
+       $valor      = $v['valor'];
 
 
         }
@@ -86,6 +86,7 @@
                 <div class="card-body">
                       
 
+                
  
 
                       <div class="form-group">
