@@ -152,48 +152,30 @@
                     <!-- /.modal -->
   
                                    
-             <!-- /.modal -->
 
-      <div class="modal fade" id="confirm-delete">
+
+  <div class="modal fade" id="confirm-delete">
         <div class="modal-dialog modal-sm">
           <div class="modal-content bg-secondary">
             <div class="modal-header">
-              <h4 class="modal-title">Excluir jogo</h4>
+              <h4 class="modal-title">Confirmar exclusão</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <p>Tem certeza que deseja excluir? &hellip;</p>
+              <p>Tem certeza que deseja excluir?</p>
             </div>
             <div class="modal-footer justify-content-between">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cancelar</button>
-              <button type="button" class="btn btn-outline-danger btn-ok">Excluir</button>
+      
+              <a class="btn btn-outline-light btn-ok">excluir!</a>
             </div>
           </div>
           <!-- /.modal-content -->
         </div>
         <!-- /.modal-dialog -->
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- DataTables -->
 <script src="plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>

@@ -48,11 +48,11 @@
             <!-- /.card-header -->
             <!-- form start -->
 
-            <form role="form"  name="form_jogo" id="form_jogo" method="POST" action="reg_game.php">
+            <form role="form"  name="form_jog" id="form_jog" method="POST" action="reg_game.php">
                 <div class="card-body">
                   
                       <div class="form-group">
-                          <label for="exampleInputEmail1">Título</label>
+                          <label for="">Título</label>
                           <input type="text" class="form-control" id="titulo" name="titulo" required>
                       </div>
 
