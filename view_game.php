@@ -57,7 +57,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Informações do JOGO</h1>
+            <h1 class="m-0 text-dark"><i class="fas fa"> Informações do JOGO</i></h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -75,9 +75,9 @@
     <section class="content">
       <div class="container-fluid">
  
-        <div class="card card-primary">
+        <div class="card card-dark">
             <div class="card-header">
-              <h3 class="card-title">INFORMAÇÕES</h3>
+              <h3 class="card-title"><i class="fas fa-eye">  INFORMAÇÕES</i></h3>
             </div>
             <!-- /.card-header -->
             <!-- form start -->

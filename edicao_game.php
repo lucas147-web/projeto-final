@@ -36,7 +36,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Editar</title>
+  <title>Game X</title>
   <?php
     include "header.php";
     ?>
@@ -57,7 +57,7 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             
-            <h3 class="text-primary"><i class="fas fa-paint-brush">Editar informações</i></h3>
+            <h3 class="text-info"><i class="fas fa-paint-brush"> Editar informações</i></h3>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -75,9 +75,9 @@
     <section class="content">
       <div class="container-fluid">
  
-        <div class="card card-primary">
+        <div class="card card-dark">
             <div class="card-header">
-              <h3 class="card-title">Atualização de distribuidora</h3>
+              <h3 class="card-title"><i class="fas fa-paint-brush"></i>  Atualizar Informação </h3>
             </div>
             <!-- /.card-header -->
             <!-- form start -->
@@ -86,10 +86,7 @@
                 <div class="card-body">
                       
 
-                     <div class="form-group">
-                          <label>Id</label>
-                          <input type="text" class="form-control" id="id" name="id" disabled value="<?php echo $id; ?>" >
-                      </div>
+ 
 
                       <div class="form-group">
                           <label for="exampleInputEmail1">Tìtulo</label>
@@ -113,7 +110,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Atualizar</button>
+                  <button type="submit" class="btn btn-info">Atualizar</button>
                 </div>
             </form>
           </div>

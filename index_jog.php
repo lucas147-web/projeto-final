@@ -32,7 +32,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">GAMES</h1>
+            <h1 class="m-0 text-dark"><i class="fas fa">GAMES</i></h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -73,8 +73,8 @@
 
       <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Tabela de jogos</h3>
-              <small class="float-right"> <a href="add_game.php"><button type="button" class="btn btn-block btn-primary">NOVO JOGO</button></a></small>
+                <h2 class="card-title"><i class="fas fa">TABELA DE JOGOS</i></h2>
+              <small class="float-right"> <a href="add_game.php"><button type="button" class="btn btn-block btn-dark">NOVO JOGO</button></a></small>
                      
                     
               </div>
