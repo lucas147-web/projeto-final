@@ -14,7 +14,7 @@
 
         
 
-        $stmt = $conn->prepare("UPDATE  jogos SET   titulo=:titulo, categoria=:categoria,valor=:valor WHERE id:id");
+        $stmt = $conn->prepare("UPDATE  jogos SET   titulo=:titulo, categoria=:categoria,valor=:valor WHERE id=:id");
         $stmt->bindParam(':id', $id);
         $stmt->bindParam(':titulo', $titulo);
         $stmt->bindParam(':categoria', $categoria);
