@@ -150,29 +150,46 @@
     include "footer.php";
   ?>
                     <!-- /.modal -->
+  
+                                   
+             <!-- /.modal -->
 
       <div class="modal fade" id="confirm-delete">
-        <div class="modal-dialog">
-          <div class="modal-content bg-danger">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content bg-secondary">
             <div class="modal-header">
-              <h4 class="modal-title">Confirmar exclusão</h4>
+              <h4 class="modal-title">Excluir jogo</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <p>Tem certeza que deseja ecluir?</p>
+              <p>Tem certeza que deseja excluir? &hellip;</p>
             </div>
             <div class="modal-footer justify-content-between">
-              <button type="button" class="btn btn-outline-light" data-dismiss="modal">Cancelar</button>
-      
-              <a class="btn btn-outline-light btn-ok">Sim! Quero excluir</a>
+              <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-outline-danger btn-ok">Excluir</button>
             </div>
           </div>
           <!-- /.modal-content -->
         </div>
         <!-- /.modal-dialog -->
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
